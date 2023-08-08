@@ -1,0 +1,213 @@
+v {xschem version=2.9.9 file_version=1.2 
+* Copyright 2023 David Mitchell Bailey
+* 
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+* 
+*     https://www.apache.org/licenses/LICENSE-2.0
+* 
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=XI1 "
+highlight=true
+}
+V {}
+S {}
+E {}
+L 4 -130 -350 130 -350 {}
+L 4 -130 350 130 350 {}
+L 4 -130 -350 -130 350 {}
+L 4 130 -350 130 350 {}
+L 4 130 -240 150 -240 {}
+L 4 130 -60 150 -60 {}
+L 4 130 300 150 300 {}
+L 4 130 120 150 120 {}
+L 4 130 140 150 140 {}
+L 4 130 320 150 320 {}
+L 4 -150 60 -130 60 {}
+L 4 -150 20 -130 20 {}
+L 4 -150 0 -130 0 {}
+L 4 -150 40 -130 40 {}
+L 4 130 200 150 200 {}
+L 4 130 240 150 240 {}
+L 4 130 -320 150 -320 {}
+L 4 130 -280 150 -280 {}
+L 4 130 -300 150 -300 {}
+L 4 130 -260 150 -260 {}
+L 4 130 180 150 180 {}
+L 4 130 220 150 220 {}
+L 4 -150 -20 -130 -20 {}
+L 4 -150 -40 -130 -40 {}
+L 4 130 -140 150 -140 {}
+L 4 130 -200 150 -200 {}
+L 4 130 -120 150 -120 {}
+L 4 130 -180 150 -180 {}
+L 4 130 -100 150 -100 {}
+L 4 130 -160 150 -160 {}
+L 4 130 -240 140 -250 {}
+L 4 130 -240 140 -230 {}
+L 4 130 -60 140 -70 {}
+L 4 130 -60 140 -50 {}
+L 4 130 300 140 290 {}
+L 4 130 300 140 310 {}
+L 4 130 120 140 110 {}
+L 4 130 120 140 130 {}
+L 4 130 140 140 130 {}
+L 4 130 140 140 150 {}
+L 4 130 320 140 310 {}
+L 4 130 320 140 330 {}
+L 4 -140 50 -130 60 {}
+L 4 -140 70 -130 60 {}
+L 4 -140 10 -130 20 {}
+L 4 -140 30 -130 20 {}
+L 4 -140 -10 -130 0 {}
+L 4 -140 10 -130 0 {}
+L 4 -140 30 -130 40 {}
+L 4 -140 50 -130 40 {}
+L 4 130 -320 140 -330 {}
+L 4 130 -320 140 -310 {}
+L 4 130 -280 140 -290 {}
+L 4 130 -280 140 -270 {}
+L 4 130 -300 140 -310 {}
+L 4 130 -300 140 -290 {}
+L 4 130 -260 140 -270 {}
+L 4 130 -260 140 -250 {}
+L 4 -140 -30 -130 -20 {}
+L 4 -140 -10 -130 -20 {}
+L 4 -140 -50 -130 -40 {}
+L 4 -140 -30 -130 -40 {}
+L 4 140 190 150 200 {}
+L 4 140 210 150 200 {}
+L 4 140 230 150 240 {}
+L 4 140 250 150 240 {}
+L 4 140 170 150 180 {}
+L 4 140 190 150 180 {}
+L 4 140 210 150 220 {}
+L 4 140 230 150 220 {}
+L 4 140 -150 150 -140 {}
+L 4 140 -130 150 -140 {}
+L 4 140 -210 150 -200 {}
+L 4 140 -190 150 -200 {}
+L 4 140 -130 150 -120 {}
+L 4 140 -110 150 -120 {}
+L 4 140 -190 150 -180 {}
+L 4 140 -170 150 -180 {}
+L 4 140 -110 150 -100 {}
+L 4 140 -90 150 -100 {}
+L 4 140 -170 150 -160 {}
+L 4 140 -150 150 -160 {}
+L 4 130 40 150 40 {}
+L 4 130 0 150 0 {}
+L 4 130 20 150 20 {}
+L 4 130 -20 150 -20 {}
+L 4 130 60 150 60 {}
+L 4 130 80 150 80 {}
+L 4 130 260 150 260 {}
+L 4 140 30 150 40 {}
+L 4 140 50 150 40 {}
+L 4 140 -10 150 0 {}
+L 4 140 10 150 0 {}
+L 4 140 10 150 20 {}
+L 4 140 30 150 20 {}
+L 4 140 -30 150 -20 {}
+L 4 140 -10 150 -20 {}
+L 4 140 50 150 60 {}
+L 4 140 70 150 60 {}
+L 4 140 70 150 80 {}
+L 4 140 90 150 80 {}
+L 4 140 250 150 260 {}
+L 4 140 270 150 260 {}
+L 7 -100 -370 -100 -350 {}
+L 7 -40 -370 -40 -350 {}
+L 7 40 -370 40 -350 {}
+L 7 100 -370 100 -350 {}
+L 7 -70 350 -70 370 {}
+L 7 60 350 60 370 {}
+B 5 147.5 -242.5 152.5 -237.5 {name=D_B dir=in }
+B 5 147.5 -62.5 152.5 -57.5 {name=NMIDA_ON_N dir=in }
+B 5 147.5 297.5 152.5 302.5 {name=PU_ON dir=in }
+B 5 147.5 117.5 152.5 122.5 {name=PD_ON dir=in }
+B 5 147.5 137.5 152.5 142.5 {name=PD_ON_N dir=in }
+B 5 147.5 317.5 152.5 322.5 {name=PU_ON_N dir=in }
+B 5 -152.5 57.5 -147.5 62.5 {name=AMUX_EN_VSWITCH_H_N dir=in }
+B 5 -152.5 17.5 -147.5 22.5 {name=AMUX_EN_VDDIO_H_N dir=in }
+B 5 -152.5 -2.5 -147.5 2.5 {name=AMUX_EN_VDDIO_H dir=in }
+B 5 -152.5 37.5 -147.5 42.5 {name=AMUX_EN_VSWITCH_H dir=in }
+B 5 -102.5 -372.5 -97.5 -367.5 {name=VDDA dir=inout }
+B 5 -42.5 -372.5 -37.5 -367.5 {name=VDDIO_Q dir=inout }
+B 5 37.5 -372.5 42.5 -367.5 {name=VSWITCH dir=inout }
+B 5 97.5 -372.5 102.5 -367.5 {name=VCCD dir=inout }
+B 5 -72.5 367.5 -67.5 372.5 {name=VSSA dir=inout }
+B 5 57.5 367.5 62.5 372.5 {name=VSSD dir=inout }
+B 5 147.5 197.5 152.5 202.5 {name=PGA_PAD_VDDIOQ_H_N dir=out }
+B 5 147.5 237.5 152.5 242.5 {name=PGB_PAD_VDDIOQ_H_N dir=out }
+B 5 147.5 -322.5 152.5 -317.5 {name=AMUXBUSA_ON dir=in }
+B 5 147.5 -282.5 152.5 -277.5 {name=AMUXBUSB_ON dir=in }
+B 5 147.5 -302.5 152.5 -297.5 {name=AMUXBUSA_ON_N dir=in }
+B 5 147.5 -262.5 152.5 -257.5 {name=AMUXBUSB_ON_N dir=in }
+B 5 147.5 177.5 152.5 182.5 {name=PGA_AMX_VDDA_H_N dir=out }
+B 5 147.5 217.5 152.5 222.5 {name=PGB_AMX_VDDA_H_N dir=out }
+B 5 -152.5 -22.5 -147.5 -17.5 {name=AMUX_EN_VDDA_H_N dir=in }
+B 5 -152.5 -42.5 -147.5 -37.5 {name=AMUX_EN_VDDA_H dir=in }
+B 5 147.5 -142.5 152.5 -137.5 {name=NGB_AMX_VSWITCH_H dir=out }
+B 5 147.5 -202.5 152.5 -197.5 {name=NGA_AMX_VSWITCH_H dir=out }
+B 5 147.5 -122.5 152.5 -117.5 {name=NGB_PAD_VSWITCH_H dir=out }
+B 5 147.5 -182.5 152.5 -177.5 {name=NGA_PAD_VSWITCH_H dir=out }
+B 5 147.5 -102.5 152.5 -97.5 {name=NGB_PAD_VSWITCH_H_N dir=out }
+B 5 147.5 -162.5 152.5 -157.5 {name=NGA_PAD_VSWITCH_H_N dir=out }
+B 5 147.5 37.5 152.5 42.5 {name=NMIDB_VCCD_N dir=out }
+B 5 147.5 -2.5 152.5 2.5 {name=NMIDA_VCCD_N dir=out }
+B 5 147.5 17.5 152.5 22.5 {name=NMIDB_VCCD dir=out }
+B 5 147.5 -22.5 152.5 -17.5 {name=NMIDA_VCCD dir=out }
+B 5 147.5 57.5 152.5 62.5 {name=PD_CSD_VSWITCH_H dir=out }
+B 5 147.5 77.5 152.5 82.5 {name=PD_CSD_VSWITCH_H_N dir=out }
+B 5 147.5 257.5 152.5 262.5 {name=PU_CSD_VDDIOQ_H_N dir=out }
+T {@symname} -110 -226 0 0 0.3 0.3 {}
+T {@name} 135 -362 0 0 0.2 0.2 {}
+T {D_B} 125 -244 0 1 0.2 0.2 {}
+T {NMIDA_ON_N} 125 -64 0 1 0.2 0.2 {}
+T {PU_ON} 125 296 0 1 0.2 0.2 {}
+T {PD_ON} 125 116 0 1 0.2 0.2 {}
+T {PD_ON_N} 125 136 0 1 0.2 0.2 {}
+T {PU_ON_N} 125 316 0 1 0.2 0.2 {}
+T {AMUX_EN_VSWITCH_H_N} -125 56 0 0 0.2 0.2 {}
+T {AMUX_EN_VDDIO_H_N} -125 16 0 0 0.2 0.2 {}
+T {AMUX_EN_VDDIO_H} -125 -4 0 0 0.2 0.2 {}
+T {AMUX_EN_VSWITCH_H} -125 36 0 0 0.2 0.2 {}
+T {VDDA} -85 -344 0 1 0.2 0.2 {}
+T {VDDIO_Q} -15 -344 0 1 0.2 0.2 {}
+T {VSWITCH} 65 -344 0 1 0.2 0.2 {}
+T {VCCD} 115 -344 0 1 0.2 0.2 {}
+T {VSSA} -55 336 0 1 0.2 0.2 {}
+T {VSSD} 75 336 0 1 0.2 0.2 {}
+T {PGA_PAD_VDDIOQ_H_N} 125 196 0 1 0.2 0.2 {}
+T {PGB_PAD_VDDIOQ_H_N} 125 236 0 1 0.2 0.2 {}
+T {AMUXBUSA_ON} 125 -324 0 1 0.2 0.2 {}
+T {AMUXBUSB_ON} 125 -284 0 1 0.2 0.2 {}
+T {AMUXBUSA_ON_N} 125 -304 0 1 0.2 0.2 {}
+T {AMUXBUSB_ON_N} 125 -264 0 1 0.2 0.2 {}
+T {PGA_AMX_VDDA_H_N} 125 176 0 1 0.2 0.2 {}
+T {PGB_AMX_VDDA_H_N} 125 216 0 1 0.2 0.2 {}
+T {AMUX_EN_VDDA_H_N} -125 -24 0 0 0.2 0.2 {}
+T {AMUX_EN_VDDA_H} -125 -44 0 0 0.2 0.2 {}
+T {NGB_AMX_VSWITCH_H} 125 -144 0 1 0.2 0.2 {}
+T {NGA_AMX_VSWITCH_H} 125 -204 0 1 0.2 0.2 {}
+T {NGB_PAD_VSWITCH_H} 125 -124 0 1 0.2 0.2 {}
+T {NGA_PAD_VSWITCH_H} 125 -184 0 1 0.2 0.2 {}
+T {NGB_PAD_VSWITCH_H_N} 125 -104 0 1 0.2 0.2 {}
+T {NGA_PAD_VSWITCH_H_N} 125 -164 0 1 0.2 0.2 {}
+T {NMIDB_VCCD_N} 125 36 0 1 0.2 0.2 {}
+T {NMIDA_VCCD_N} 125 -4 0 1 0.2 0.2 {}
+T {NMIDB_VCCD} 125 16 0 1 0.2 0.2 {}
+T {NMIDA_VCCD} 125 -24 0 1 0.2 0.2 {}
+T {PD_CSD_VSWITCH_H} 125 56 0 1 0.2 0.2 {}
+T {PD_CSD_VSWITCH_H_N} 125 76 0 1 0.2 0.2 {}
+T {PU_CSD_VDDIOQ_H_N} 125 256 0 1 0.2 0.2 {}

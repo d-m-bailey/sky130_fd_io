@@ -1,0 +1,53 @@
+v {xschem version=2.9.9 file_version=1.2 
+* Copyright 2023 David Mitchell Bailey
+* 
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+* 
+*     https://www.apache.org/licenses/LICENSE-2.0
+* 
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=XI1 "
+highlight=true
+}
+V {}
+S {}
+E {}
+L 4 -130 -40 130 -40 {}
+L 4 -130 40 130 40 {}
+L 4 -130 -40 -130 40 {}
+L 4 130 -40 130 40 {}
+L 4 130 10 150 10 {}
+L 4 130 -10 150 -10 {}
+L 4 -150 -10 -130 -10 {}
+L 4 -150 10 -130 10 {}
+L 4 -140 -20 -130 -10 {}
+L 4 -140 0 -130 -10 {}
+L 4 -140 0 -130 10 {}
+L 4 -140 20 -130 10 {}
+L 4 140 -20 150 -10 {}
+L 4 140 0 150 -10 {}
+L 4 140 0 150 10 {}
+L 4 140 20 150 10 {}
+L 7 0 -60 0 -40 {}
+B 5 -2.5 -62.5 2.5 -57.5 {name=VCC_IO dir=inout }
+B 5 147.5 7.5 152.5 12.5 {name=TIE_HI_ESD dir=out }
+B 5 147.5 -12.5 152.5 -7.5 {name=PAD dir=out }
+B 5 -152.5 -12.5 -147.5 -7.5 {name=PU_H_N[2] dir=in }
+B 5 -152.5 7.5 -147.5 12.5 {name=PU_H_N[3] dir=in }
+T {@symname} -119 39 0 0 0.3 0.3 {}
+T {@name} 15 -52 0 0 0.2 0.2 {}
+T {VCC_IO} 15 -34 0 1 0.2 0.2 {}
+T {TIE_HI_ESD} 125 6 0 1 0.2 0.2 {}
+T {PAD} 125 -14 0 1 0.2 0.2 {}
+T {PU_H_N[2]} -125 -14 0 0 0.2 0.2 {}
+T {PU_H_N[3]} -125 6 0 0 0.2 0.2 {}

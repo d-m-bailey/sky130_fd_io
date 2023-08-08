@@ -1,0 +1,95 @@
+v {xschem version=2.9.9 file_version=1.2 
+* Copyright 2023 David Mitchell Bailey
+* 
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+* 
+*     https://www.apache.org/licenses/LICENSE-2.0
+* 
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=XI1 "
+highlight=true
+}
+V {}
+S {}
+E {}
+L 4 -130 -110 130 -110 {}
+L 4 -130 110 130 110 {}
+L 4 -130 -110 -130 110 {}
+L 4 130 -110 130 110 {}
+L 4 -150 -60 -130 -60 {}
+L 4 -150 -40 -130 -40 {}
+L 4 -150 20 -130 20 {}
+L 4 -150 0 -130 0 {}
+L 4 -150 40 -130 40 {}
+L 4 -150 -20 -130 -20 {}
+L 4 -150 60 -130 60 {}
+L 4 -140 -70 -130 -60 {}
+L 4 -140 -50 -130 -60 {}
+L 4 -140 -50 -130 -40 {}
+L 4 -140 -30 -130 -40 {}
+L 4 -140 -30 -130 -20 {}
+L 4 -140 -10 -130 -20 {}
+L 4 -140 -10 -130 0 {}
+L 4 -140 10 -130 0 {}
+L 4 -140 10 -130 20 {}
+L 4 -140 30 -130 20 {}
+L 4 -140 30 -130 40 {}
+L 4 -140 50 -130 40 {}
+L 4 -140 50 -130 60 {}
+L 4 -140 70 -130 60 {}
+L 7 -60 -130 -60 -110 {}
+L 7 70 -130 70 -110 {}
+L 7 -60 110 -60 130 {}
+L 7 130 20 150 20 {}
+L 7 130 0 150 0 {}
+L 7 130 -60 150 -60 {}
+L 7 130 -40 150 -40 {}
+L 7 130 -20 150 -20 {}
+L 7 130 60 150 60 {}
+L 7 130 40 150 40 {}
+B 5 -62.5 -132.5 -57.5 -127.5 {name=VDDA dir=inout }
+B 5 67.5 -132.5 72.5 -127.5 {name=VDDIO dir=inout }
+B 5 -62.5 127.5 -57.5 132.5 {name=VSSA dir=inout }
+B 5 147.5 17.5 152.5 22.5 {name=PAD_HV_N3 dir=inout }
+B 5 147.5 -2.5 152.5 2.5 {name=PAD_HV_N2 dir=inout }
+B 5 147.5 -62.5 152.5 -57.5 {name=AMUXBUS_HV dir=inout }
+B 5 -152.5 -62.5 -147.5 -57.5 {name=NG_AMX_VPMP_H dir=in }
+B 5 -152.5 -42.5 -147.5 -37.5 {name=NG_PAD_VPMP_H dir=in }
+B 5 -152.5 17.5 -147.5 22.5 {name=PD_H_VDDIO dir=in }
+B 5 -152.5 -2.5 -147.5 2.5 {name=PD_H_VDDA dir=in }
+B 5 147.5 -42.5 152.5 -37.5 {name=PAD_HV_N0 dir=inout }
+B 5 147.5 -22.5 152.5 -17.5 {name=PAD_HV_N1 dir=inout }
+B 5 -152.5 37.5 -147.5 42.5 {name=PG_AMX_VDDA_H_N dir=in }
+B 5 -152.5 -22.5 -147.5 -17.5 {name=NMID_VCCD dir=in }
+B 5 147.5 57.5 152.5 62.5 {name=PAD_HV_P1 dir=inout }
+B 5 147.5 37.5 152.5 42.5 {name=PAD_HV_P0 dir=inout }
+B 5 -152.5 57.5 -147.5 62.5 {name=PG_PAD_VDDIOQ_H_N dir=in }
+T {@symname} -129 109 0 0 0.3 0.3 {}
+T {@name} 85 -122 0 0 0.2 0.2 {}
+T {VDDA} -45 -104 0 1 0.2 0.2 {}
+T {VDDIO} 85 -104 0 1 0.2 0.2 {}
+T {VSSA} -45 96 0 1 0.2 0.2 {}
+T {PAD_HV_N3} 125 16 0 1 0.2 0.2 {}
+T {PAD_HV_N2} 125 -4 0 1 0.2 0.2 {}
+T {AMUXBUS_HV} 125 -64 0 1 0.2 0.2 {}
+T {NG_AMX_VPMP_H} -125 -64 0 0 0.2 0.2 {}
+T {NG_PAD_VPMP_H} -125 -44 0 0 0.2 0.2 {}
+T {PD_H_VDDIO} -125 16 0 0 0.2 0.2 {}
+T {PD_H_VDDA} -125 -4 0 0 0.2 0.2 {}
+T {PAD_HV_N0} 125 -44 0 1 0.2 0.2 {}
+T {PAD_HV_N1} 125 -24 0 1 0.2 0.2 {}
+T {PG_AMX_VDDA_H_N} -125 36 0 0 0.2 0.2 {}
+T {NMID_VCCD} -125 -24 0 0 0.2 0.2 {}
+T {PAD_HV_P1} 125 56 0 1 0.2 0.2 {}
+T {PAD_HV_P0} 125 36 0 1 0.2 0.2 {}
+T {PG_PAD_VDDIOQ_H_N} -125 56 0 0 0.2 0.2 {}

@@ -1,0 +1,100 @@
+v {xschem version=2.9.9 file_version=1.2 
+* Copyright 2023 David Mitchell Bailey
+* 
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+* 
+*     https://www.apache.org/licenses/LICENSE-2.0
+* 
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+}
+G {}
+K {type=subcircuit
+format="@name @pinlist @symname"
+template="name=XI1 "
+highlight=true
+}
+V {}
+S {}
+E {}
+L 4 -130 -100 130 -100 {}
+L 4 -130 100 130 100 {}
+L 4 -130 -100 -130 100 {}
+L 4 130 -100 130 100 {}
+L 4 -150 -70 -130 -70 {}
+L 4 -150 -50 -130 -50 {}
+L 4 -150 -30 -130 -30 {}
+L 4 -150 -10 -130 -10 {}
+L 4 -150 10 -130 10 {}
+L 4 -150 30 -130 30 {}
+L 4 -150 50 -130 50 {}
+L 4 -150 70 -130 70 {}
+L 4 -140 -80 -130 -70 {}
+L 4 -140 -60 -130 -70 {}
+L 4 -140 -60 -130 -50 {}
+L 4 -140 -40 -130 -50 {}
+L 4 -140 -40 -130 -30 {}
+L 4 -140 -20 -130 -30 {}
+L 4 -140 -20 -130 -10 {}
+L 4 -140 0 -130 -10 {}
+L 4 -140 0 -130 10 {}
+L 4 -140 20 -130 10 {}
+L 4 -140 20 -130 30 {}
+L 4 -140 40 -130 30 {}
+L 4 -140 40 -130 50 {}
+L 4 -140 60 -130 50 {}
+L 4 -140 60 -130 70 {}
+L 4 -140 80 -130 70 {}
+L 7 -90 -120 -90 -100 {}
+L 7 -30 -120 -30 -100 {}
+L 7 30 -120 30 -100 {}
+L 7 90 -120 90 -100 {}
+L 7 -90 100 -90 120 {}
+L 7 0 100 0 120 {}
+L 7 90 100 90 120 {}
+L 7 130 -20 150 -20 {}
+L 7 130 20 150 20 {}
+L 7 130 0 150 0 {}
+B 5 -92.5 -122.5 -87.5 -117.5 {name=VDDA dir=inout }
+B 5 -32.5 -122.5 -27.5 -117.5 {name=VDDIO_Q dir=inout }
+B 5 27.5 -122.5 32.5 -117.5 {name=VSWITCH dir=inout }
+B 5 87.5 -122.5 92.5 -117.5 {name=VCCD dir=inout }
+B 5 -92.5 117.5 -87.5 122.5 {name=VSSA dir=inout }
+B 5 -2.5 117.5 2.5 122.5 {name=VSSD dir=inout }
+B 5 87.5 117.5 92.5 122.5 {name=VSSIO_Q dir=inout }
+B 5 147.5 -22.5 152.5 -17.5 {name=AMUXBUS_A dir=inout }
+B 5 -152.5 -72.5 -147.5 -67.5 {name=ANALOG_EN dir=in }
+B 5 -152.5 -52.5 -147.5 -47.5 {name=ANALOG_POL dir=in }
+B 5 -152.5 -32.5 -147.5 -27.5 {name=ANALOG_SEL dir=in }
+B 5 -152.5 -12.5 -147.5 -7.5 {name=ENABLE_VDDA_H dir=in }
+B 5 147.5 17.5 152.5 22.5 {name=PAD dir=inout }
+B 5 -152.5 7.5 -147.5 12.5 {name=ENABLE_VSWITCH_H dir=in }
+B 5 -152.5 27.5 -147.5 32.5 {name=HLD_I_H dir=in }
+B 5 -152.5 47.5 -147.5 52.5 {name=HLD_I_H_N dir=in }
+B 5 -152.5 67.5 -147.5 72.5 {name=OUT dir=in }
+B 5 147.5 -2.5 152.5 2.5 {name=AMUXBUS_B dir=inout }
+T {@symname} -132.5 99 0 0 0.3 0.3 {}
+T {@name} 105 -112 0 0 0.2 0.2 {}
+T {VDDA} -75 -94 0 1 0.2 0.2 {}
+T {VDDIO_Q} -5 -94 0 1 0.2 0.2 {}
+T {VSWITCH} 55 -94 0 1 0.2 0.2 {}
+T {VCCD} 105 -94 0 1 0.2 0.2 {}
+T {VSSA} -75 86 0 1 0.2 0.2 {}
+T {VSSD} 15 86 0 1 0.2 0.2 {}
+T {VSSIO_Q} 115 86 0 1 0.2 0.2 {}
+T {AMUXBUS_A} 125 -24 0 1 0.2 0.2 {}
+T {ANALOG_EN} -125 -74 0 0 0.2 0.2 {}
+T {ANALOG_POL} -125 -54 0 0 0.2 0.2 {}
+T {ANALOG_SEL} -125 -34 0 0 0.2 0.2 {}
+T {ENABLE_VDDA_H} -125 -14 0 0 0.2 0.2 {}
+T {PAD} 125 16 0 1 0.2 0.2 {}
+T {ENABLE_VSWITCH_H} -125 6 0 0 0.2 0.2 {}
+T {HLD_I_H} -125 26 0 0 0.2 0.2 {}
+T {HLD_I_H_N} -125 46 0 0 0.2 0.2 {}
+T {OUT} -125 66 0 0 0.2 0.2 {}
+T {AMUXBUS_B} 125 -4 0 1 0.2 0.2 {}

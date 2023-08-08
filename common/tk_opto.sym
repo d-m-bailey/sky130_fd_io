@@ -1,0 +1,39 @@
+v {xschem version=2.9.9 file_version=1.2 
+* Copyright 2023 David Mitchell Bailey
+* 
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+* 
+*     https://www.apache.org/licenses/LICENSE-2.0
+* 
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+}
+G {}
+K {type=subcircuit
+function2="0"
+format="@name @pinlist @symname"
+template="name=XI1"
+}
+V {}
+S {}
+E {}
+L 4 20 -0 30 -0 {}
+L 4 -30 -40 -20 -40 {}
+L 4 -10 -30 10 -10 {}
+L 4 -30 40 -20 40 {}
+B 5 -32.5 -42.5 -27.5 -37.5 {name=SPD dir=in goto=2 propag=2 }
+B 5 -32.5 37.5 -27.5 42.5 {name=SPU dir=in }
+B 5 27.5 -2.5 32.5 2.5 {name=OUT dir=out }
+A 4 -15 -35 7.071067811865476 315 360 {}
+A 4 15 -5 7.071067811865476 135 360 {}
+A 4 -15 35 7.071067811865476 315 360 {}
+T {@symname} -39.5 -6 0 0 0.2 0.2 {}
+T {@name} -5 -42 0 0 0.2 0.2 {}
+T {SPD} -30 -54 0 0 0.2 0.2 {}
+T {OUT} 30 6 0 1 0.2 0.2 {}
+T {SPU} -30 41 0 0 0.2 0.2 {}
