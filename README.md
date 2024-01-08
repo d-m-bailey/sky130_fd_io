@@ -9,7 +9,8 @@ xschem top_gpiov2.sch
 Set the following:
 - Simulation -> LVS netlist: Top level is a .subckt
 - Simulation -> Use 'simulation' dir under current schematic dir
-Press 'Netlist' in the upper right menu bar.
+
+Press `Netlist` in the upper right menu bar.
 
 Clone and setup the LVS environment
 ```
